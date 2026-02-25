@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlexBox</title>
+    <title>Error page</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <style>
+        body {
+            background-color: lightgoldenrodyellow;
+            font-family: 'Merriweather', serif;
+
+        }
+        .error-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .error-heading {
+            margin-bottom: 42px;
+            font-weight: 900;
+            font-size: 1.4em;
+           
+        }
+        img {
+            width: 50%;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Hi FlexBox</h1>
-    <p>Some content</p>
+    <div class="error-wrapper">
+        <div class="error-heading">
+            <p>Upss... Quién sabe cuándo estará disponible esa página, ¿te gustaría probar otra?</p>
+        </div>
+        <img src="tbot.png"/>
+    </div>
+            
+
 </body>
 </html>
